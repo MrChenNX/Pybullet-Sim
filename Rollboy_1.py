@@ -41,12 +41,12 @@ startOrientation = p.getQuaternionFromEuler([0,0,0])
 #robot creation
 #import our design model from fusion360
 
-#v2 = "C:\\Users\\15056\\anaconda3\\Lib\\site-packages\\pybullet_data\\Loomo_K2\\model.sdf"
+
 #loomo
-Test="G:\Master\Semester2\Praktikum\Fusion360\Rollbody2.1_test4\model.sdf"
+Test="model.sdf"
 robot = p.loadSDF(Test,globalScaling=1.0)
 p.resetBasePositionAndOrientation(robot[0],[0,0,0.25],[0,0,0,1])
-V2 = "G:\Master\Semester2\Praktikum\Fusion360\Rollbody v2.0 v4.obj"
+V2 = "v2.0 v4.obj"
 #get the link and joint
 NumJoints = p.getNumJoints(robot[0])
 Joint1 = p.getJointInfo(robot[0],0)
