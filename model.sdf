@@ -1,0 +1,218 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+	<model name="Rollbody2.1_test4">
+		<link name="link_heightAdjust">
+			<self_collide>false</self_collide>
+			<pose frame="">-1.2310516071992702e-14 -0.020004054905676666 1.2692166655551664 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>2.9809715023306786</mass>
+				<inertia>
+					<ixx>4.941734819431478</ixx>
+					<ixy>-1.6443664081913173e-15</ixy>
+					<ixz>5.589880077394383e-14</ixz>
+					<iyy>4.9407120272463905</iyy>
+					<iyz>0.08122179996364012</iyz>
+					<izz>0.002546465257724052</izz>
+				</inertia>
+			</inertial>
+			<collision name="link_heightAdjust_collision">
+				<geometry>
+					<mesh>
+						<uri>model://Rollbody2.1_test4/meshes/CAD/link_heightAdjust.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link_heightAdjust_visual">
+				<geometry>
+					<mesh>
+						<uri>model://Rollbody2.1_test4/meshes/CAD/link_heightAdjust.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_base">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.0007986108165280355 0.005743964129735297 0.15327781673818922 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>86.1777122467262</mass>
+				<inertia>
+					<ixx>6.443231636530824</ixx>
+					<ixy>0.0006993266805764146</ixy>
+					<ixz>0.002440526189443658</ixz>
+					<iyy>6.388071337224328</iyy>
+					<iyz>-0.0721928133558915</iyz>
+					<izz>1.802654637421469</izz>
+				</inertia>
+			</inertial>
+			<collision name="link_base_collision">
+				<geometry>
+					<mesh>
+						<uri>model://Rollbody2.1_test4/meshes/CAD/link_base.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link_base_visual">
+				<geometry>
+					<mesh>
+						<uri>model://Rollbody2.1_test4/meshes/CAD/link_base.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_loomo_head">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.0012243340644843448 -1.9999423181849568e-05 0.4269237577134076 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>12.991942687000781</mass>
+				<inertia>
+					<ixx>2.388752916509112</ixx>
+					<ixy>-2.016858278166148e-14</ixy>
+					<ixz>0.006571408800908258</ixz>
+					<iyy>2.445335065506726</iyy>
+					<iyz>9.873591670603139e-05</iyz>
+					<izz>0.06850544130681294</izz>
+				</inertia>
+			</inertial>
+			<collision name="link_loomo_head_collision">
+				<geometry>
+					<mesh>
+						<uri>model://Rollbody2.1_test4/meshes/CAD/link_loomo_head.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="link_loomo_head_visual">
+				<geometry>
+					<mesh>
+						<uri>model://Rollbody2.1_test4/meshes/CAD/link_loomo_head.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="wheelR">
+			<self_collide>false</self_collide>
+			<pose frame="">-0.21672933042609713 -1.4832411387842443e-11 0.024999999999999804 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>28.624341980085596</mass>
+				<inertia>
+					<ixx>0.29162603877351323</ixx>
+					<ixy>-9.213120576122778e-11</ixy>
+					<ixz>0.15509336178078817</ixz>
+					<iyy>1.5078493950683791</iyy>
+					<iyz>1.0613919714810214e-11</iyz>
+					<izz>1.489959218036965</izz>
+				</inertia>
+			</inertial>
+			<collision name="wheelR_collision">
+				<geometry>
+					<mesh>
+						<uri>model://Rollbody2.1_test4/meshes/CAD/wheelR.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="wheelR_visual">
+				<geometry>
+					<mesh>
+						<uri>model://Rollbody2.1_test4/meshes/CAD/wheelR.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="wheelL">
+			<self_collide>false</self_collide>
+			<pose frame="">0.21672933042609746 9.340685003993457e-12 0.02500000000000007 0.0 -0.0 0.0</pose>
+			<inertial>
+				<pose frame="">0.0 0.0 0.0 0 0 0</pose>
+				<mass>28.624341980085244</mass>
+				<inertia>
+					<ixx>0.29162604722004715</ixx>
+					<ixy>-5.801943252828305e-11</ixy>
+					<ixz>-0.15509336178078814</ixz>
+					<iyy>1.5078494077381723</iyy>
+					<iyz>-6.684359397954888e-12</iyz>
+					<izz>1.4899592138136788</izz>
+				</inertia>
+			</inertial>
+			<collision name="wheelL_collision">
+				<geometry>
+					<mesh>
+						<uri>model://Rollbody2.1_test4/meshes/CAD/wheelL.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="wheelL_visual">
+				<geometry>
+					<mesh>
+						<uri>model://Rollbody2.1_test4/meshes/CAD/wheelL.stl</uri>
+						<scale>0.001 0.001 0.001</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<joint name="joint_wheelsR" type="revolute">
+			<parent>link_base</parent>
+			<child>wheelR</child>
+			<pose frame="">-0.18699999999999992 2.1814103010626217e-16 0.024999999999999842 0 0 0</pose>
+			<axis>
+				<xyz>-1.0 5.110427385335401e-16 -5.551115123125784e-16</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>6.283185307179586</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint_wheelL" type="revolute">
+			<parent>link_base</parent>
+			<child>wheelL</child>
+			<pose frame="">0.1870000000000001 2.886579864025407e-17 0.025000000000000046 0 0 0</pose>
+			<axis>
+				<xyz>1.0 5.5511151231257815e-17 5.551115123125784e-16</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>6.283185307179586</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint_loomo_head" type="revolute">
+			<parent>link_base</parent>
+			<child>link_loomo_head</child>
+			<pose frame="">0.0 -1.7763568394002505e-17 0.33848697034056907 0 0 0</pose>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>0.0</lower>
+					<upper>6.283185307179586</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<joint name="joint_heightAdjust" type="prismatic">
+			<parent>link_base</parent>
+			<child>link_heightAdjust</child>
+			<pose frame="">-1.2212453270876723e-16 -0.009999999999999962 0.9545 0 0 0</pose>
+			<axis>
+				<xyz>0.0 2.908361651843042e-17 1.0</xyz>
+				<limit>
+					<lower>-0.25</lower>
+					<upper>0.25</upper>
+				</limit>
+				<use_parent_model_frame>0</use_parent_model_frame>
+			</axis>
+		</joint>
+		<plugin filename="libcardsflow_gazebo_plugin.so" name="cardsflow_gazebo_plugin"/>
+	</model>
+</sdf>
